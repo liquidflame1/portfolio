@@ -1,33 +1,23 @@
-<style>
-   #heading {
-     
-}
-
-
-  .red-text {
-    color: red;
-}
-  p {
-    font-size:16px;
-    font-family: 'lobster', cursive;
-}
-</style>
-
 .karla_header {
-  background-color: rgb(58, 123, 221);
+  background-color: rgb(41, 8, 8);
 }
 
 .footer {
-background-color: rgb(58, 123, 221);
+background-color: rgb(10, 23, 2);
 height: 100px;
 padding: 25px 5px 5px 5px;
 text-align: center;
 }
-.pic {
-padding: 50px;     
+
+.pic{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%
 }
+
 h1 {
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 60px 0 20px 0px;
   margin: 0;
   text-align: center;
@@ -44,6 +34,7 @@ h3 {
 
 
 p {
+  text-align: center;
   font-family: arial, sans-serif;
 }
 
@@ -59,12 +50,12 @@ padding: 0 30px 30px 30px;
 }
 
 .light-background {
-    background-color: rgb(240, 248, 255);
+    background-color: rgb(255, 255, 255);
     color: #1e1e1e
 }
 
 .box {
-  background-color: #eee;
+  background-color: rgb(255, 252, 252);
   border: 2px solid black;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -76,14 +67,14 @@ padding: 0 30px 30px 30px;
 .box2 {
   width: 200px;
   margin-top: 20px;
-  background-color: rgb(58, 123, 221);
+  background-color: rgb(255, 255, 255);
   border: 2px solid black;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   padding: 20px;
-  color: rgb(58, 123, 221);
+  color: rgb(0, 0, 255);
   font-family: arial, sans-serif;
   text-align: center;
 }
